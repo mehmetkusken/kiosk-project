@@ -40,6 +40,6 @@ Has a `#hotel` method starts that when the guests activate the screen of the kio
 
 
 ## Our Code in Action
-Now run the executable file with run.rb .  You should see all of the Check in and Check out transactions in your terminal .
+Now run the executable file with lib/run.rb .  You should see all of the Check in and Check out transactions in your terminal .
 
 
