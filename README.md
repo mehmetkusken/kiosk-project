@@ -21,7 +21,7 @@ Include the bundler by adding ‘require bundler’ and ‘Bundler.require’ to
 
 ## To Run This app
 
-Run `Ruby lib/run.rb `
+Run `Ruby bin/run.rb `
 
 
 ## Instructions
@@ -40,6 +40,6 @@ Has a `#hotel` method starts that when the guests activate the screen of the kio
 
 
 ## Our Code in Action
-Now run the executable file with lib/run.rb .  You should see all of the Check in and Check out transactions in your terminal .
+Now run the executable file with bin/run.rb .  You should see all of the Check in and Check out transactions in your terminal .
 
 
