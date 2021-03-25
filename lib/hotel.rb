@@ -2,7 +2,7 @@ require_relative "../lib/data.rb"
 
     class Hotel < WeatherInformation
 
-    attr_accessor  :room1, :room2, :room3, :room4, :room5, :room6 ,:occupied_double_beds_rooms ,:occupied_king_bed_rooms ,:occupied_bussiness_room , :occupied_deluxe_rooms ,:occupied_studio_suite_rooms ,:time ,:available_double_beds_rooms ,:available_king_bed_rooms ,:available_bussiness_room,:available_deluxe_rooms ,:available_studio_suite_rooms , :payment1 , :payment2 , :limit , :total_limit , :occupied_rooms , :available_rooms , :occupied , :transaction1 ,:transaction2 , :transaction3 , :double_beds_rooms ,:king_bed_rooms ,:bussiness_rooms ,:deluxe_rooms ,:studio_suite_rooms 
+    attr_accessor  :transaction1 , :transaction2 , :transaction3 , :room1 , :room2 , :room3 , :room4 , :room5 , :room6 , :double_beds_rooms , :king_bed_rooms , :bussiness_rooms , :deluxe_rooms , :studio_suite_rooms , :occupied_rooms , :available_rooms , :available_double_beds_rooms , :available_king_bed_rooms , :available_bussiness_room , :available_deluxe_rooms , :available_studio_suite_rooms , :time , :payment1 , :payment2 , :limit , :total_limit , :occupied 
     attr_reader :hotel_name , :heat
     
     def initialize
