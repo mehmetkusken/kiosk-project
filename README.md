@@ -21,7 +21,7 @@ Include the bundler by adding ‘require bundler’ and ‘Bundler.require’ to
 
 ## To Run This app
 
-Run `Ruby bin/run.rb `
+Run `Ruby bin/run `
 
 
 ## Instructions
