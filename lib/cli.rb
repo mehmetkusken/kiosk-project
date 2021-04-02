@@ -3,12 +3,12 @@ require "time"
 
     class Cli < Hotel
         def welcome
-            puts "Welcome to the #{hotel_name} Hotel!"
-            puts "Today temperature is #{heat} degree."
+            puts "Welcome to the #{@hotel_name} Hotel!"
+            puts "Today temperature is #{@heat} degree."
             puts "Please enter your name"
             name = gets        
             puts "Hello #{name.upcase}"
-            puts"Welcome to #{hotel_name}"
+            puts"Welcome to #{@hotel_name}"
         end
         def main_menu
             self.welcome
@@ -100,6 +100,9 @@ require "time"
         def wrong_transaction
             puts "Wrong transaction"
         end
+        def leaving_the_program
+            puts "Leaving the program"
+        end
         
     def hotel
         kiosk = true
@@ -142,12 +145,12 @@ require "time"
         wrong_transaction
         end
         when 3
-        puts "Leaving the program"
+        leaving_the_program
         end
         when 2
         self.transaction_two
         when 3
-        puts "Leaving the program"
+        leaving_the_program
         end      
         end     
     end    
