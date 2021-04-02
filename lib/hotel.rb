@@ -17,7 +17,6 @@ class Hotel < WeatherInformation
         @payment1= ["Cash","Credit/Debit Card"]
         @heat = information_weather   
     end
-
     def transactions
         transaction1.each do |trans|
         puts trans
@@ -27,12 +26,10 @@ class Hotel < WeatherInformation
         room1.each_with_index do |roomm , index|
         puts "Press #{index+1} : #{roomm}"
         end
-    end
-    
+    end 
     def payments
         payment1.each_with_index do |payment_method , index|
         puts"Press #{index+1} : #{payment_method}"
         end
     end
-    
 end
